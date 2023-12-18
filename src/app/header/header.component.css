@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1 {
+    color: #042236; /* Set text color to a shade of blue */
+    margin: 0px;
+    font-size: 40px;
+    text-align: center; /* Center-align the text */
+    background-color: #ecf0f1; /* Set background color to a light gray */
+    padding: 20px; /* Add padding for better visual appearance */
+  }
+  .nav ul{  
+     display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+        
+  
+  .nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .nav li a{
+    text-decoration: none;
+    color: #3498db;
+
+  }
+.nav .nav-search{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+  .nav .nav-search input{
+    flex: 1;
+    color: #3498db;
+    border: 2px solid #3498db;
+    height: 34px;
+    border-right: 0px;
+  }
+  .nav .nav-search button{
+    
+    color: #3498db;
+    border: 2px solid #3498db;
+    height: 39px;
+    border-left: 0px;
+  }
